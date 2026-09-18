@@ -1,0 +1,183 @@
+{
+  "version": "0.1.0",
+  "date": "2026-09-18",
+  "label_shuffle_seed": 18092026,
+  "checks": {
+    "baseline": {
+      "word_counts_whitespace": {
+        "explanation": 54,
+        "personal_voice": 131,
+        "argument": 251,
+        "warm_note": 57,
+        "speech": 192,
+        "poem_critique": 91,
+        "copyedit": 23,
+        "criticism": 161
+      },
+      "word_limits_pass": true,
+      "exact_copyedit_pass": true
+    },
+    "candidate": {
+      "word_counts_whitespace": {
+        "explanation": 49,
+        "personal_voice": 116,
+        "argument": 278,
+        "warm_note": 57,
+        "speech": 188,
+        "poem_critique": 80,
+        "copyedit": 23,
+        "criticism": 162
+      },
+      "word_limits_pass": true,
+      "exact_copyedit_pass": true
+    }
+  },
+  "comparisons": [
+    {
+      "id": "explanation",
+      "baseline": "A private event is visible only to the person who created it. If you invite someone, that person can see its title, time and location. The invitation does not let them see any of your other private events.\n\nA busy block tells coworkers that you’re unavailable at that time without showing the event’s title.",
+      "skill": "A private event is visible only to you, its creator. If you invite someone, they can see that event’s title, time and location. The invitation does not reveal any of your other private events.\n\nA busy block tells coworkers that the time is unavailable without showing the event title.",
+      "blind_label_map": {
+        "A": "baseline",
+        "B": "candidate"
+      },
+      "blind_review": {
+        "id": "explanation",
+        "verdict": "tie",
+        "rationale": "Both give a novice all four required facts in plain language, return only the finished help text, and remain comfortably under 90 words (A: 54; B: 49). B addresses the creator directly; A uses a slightly more general opening. Neither difference materially improves comprehension or loses a privacy distinction. Both clearly separate an invitation to this event from access to other private events, then explain the busy block without jargon.",
+        "A_issues": [],
+        "B_issues": []
+      },
+      "resolved_preference": "tie"
+    },
+    {
+      "id": "personal_voice",
+      "baseline": "I kept the tin because it was a good tin. This is my defence, and it would be convincing if the house did not contain eleven other good tins.\n\nMy father kept screws in this one. I keep the buttons that come in little packets with new clothes, although I have never once replaced a button. They are there in case I become the sort of person who does.\n\nThe lid goes on crooked. You have to give it a small sideways shove. My father showed me how. I am forty-three and still doing things his way, including things that do not work especially well.\n\nI could use another tin. The house is hardly short of them. But then I would put the lid on and it would just go on.",
+      "skill": "I kept the tin because it was a good tin. This is the defence I make, which would be convincing if the house did not contain eleven other good tins.\n\nMy father used this one for screws. I use it for the buttons that come in little packets with new clothes, although I have never once replaced a button.\n\nThe lid goes on crooked. You have to give it a small sideways shove. I am forty-three and still doing things the way he showed me, including things that do not work especially well.\n\nI could say I keep it because I miss him. But I would like it on record that it is a good tin.",
+      "blind_label_map": {
+        "A": "baseline",
+        "B": "candidate"
+      },
+      "blind_review": {
+        "id": "personal_voice",
+        "verdict": "A",
+        "rationale": "Both preserve the supplied events, prickly self-defence and word limit without inventing further biography. A develops the opening more fully: the unused buttons become an additional joke about the narrator’s imagined competence, and the closing thought about a lid that would \"just go on\" makes the inherited awkward movement carry the loss. The father remains present through a physical habit. B has a good defensive return to \"a good tin\", but explicitly naming \"I miss him\" makes the emotional explanation more direct and the ending more neatly circular. A earns greater depth through the object itself.",
+        "A_issues": [],
+        "B_issues": [
+          "The ending states the feeling directly and resolves it into a tidy callback; it develops the object and inherited gesture less than A does."
+        ]
+      },
+      "resolved_preference": "baseline"
+    },
+    {
+      "id": "argument",
+      "baseline": "What an unbooked afternoon can tell us\n\nThe council’s plan to book an activity every Saturday afternoon for the square’s first three months has an understandable appeal. A programme gives people a reason to come. It also gives the council something visible to show for the money spent. Simply leaving a new space available does not guarantee that people will feel welcome there.\n\nBut a full calendar offers a particular kind of welcome: come here because we have arranged something for you. A public square should also invite people to come without an occasion.\n\nTwo nearby residents have said they want somewhere to sit without buying anything. That may sound like a modest ambition beside a stage and a calendar of activities. Yet it asks an important question about what public spending is for. If the square gives someone a place to spend an afternoon without spending money, it is already doing useful work.\n\nWe should keep organised events and leave some Saturday afternoons unbooked from the beginning. People can sit during an event, of course, but sitting need not always mean becoming an audience. Six benches and movable chairs offer possibilities that deserve time of their own.\n\nAn unbooked afternoon might be poorly used; that is a possibility worth taking seriously. But if every Saturday afternoon is booked, we will learn more about the programme’s appeal than the square’s. Its first three months should give us a chance to discover what people do when the council hasn’t supplied the occasion.",
+      "skill": "What a full calendar cannot tell us\n\nThe council’s proposed calendar gives our new square an organised activity every Saturday afternoon for its first three months. That is an understandable way to open a public space. Events give people a reason to come, and a square that feels unused could make residents wonder whether the money was well spent.\n\nBut a full calendar would also make it harder to discover what people want to do there without an invitation.\n\nTwo nearby residents have said they would like somewhere to sit without buying anything. Their request is modest, but it points to a public square’s particular value: you can belong there without becoming a customer or joining an activity. An event may be welcoming while still giving the afternoon a purpose someone else has chosen.\n\nThe small stage makes organised occasions possible. The six benches and movable chairs make another kind of use possible too. Sitting, moving a chair, staying a while: these uses will not necessarily produce an entry in the council’s calendar. They still count.\n\nWe should leave some Saturday afternoons unprogrammed during those first three months—perhaps alternate weeks—and make clear that the square remains open to everyone. That would give organised events a fair chance to build familiarity while leaving room for people to form their own habits.\n\nThe council would still need to consider whether the square is serving residents. It should ask about those quieter uses as well as attendance at events. If we judge the investment only by how much we schedule, we will keep finding reasons to schedule more. Some free afternoons would let the square tell us something the calendar cannot.",
+      "blind_label_map": {
+        "A": "baseline",
+        "B": "candidate"
+      },
+      "blind_review": {
+        "id": "argument",
+        "verdict": "B",
+        "rationale": "Both meet the length and factual constraints and offer a substantive argument: an event calendar can conceal how a square serves people outside events. A is especially good on the distinction between sitting and becoming an audience, and explicitly concedes that unbooked time might be poorly used. B wins narrowly on development. Its alternate-week proposal preserves a role for events to build familiarity, and its suggestion to ask about quiet use supplies a way to assess the investment. The final warning about scheduling becoming its own measure of success follows from that practical alternative. It answers the supporters’ concern rather than merely rejecting their preferred evidence.",
+        "A_issues": [
+          "The proposal to retain events while leaving some afternoons free is sound, but gives the council less guidance than B on how to evaluate those afternoons."
+        ],
+        "B_issues": []
+      },
+      "resolved_preference": "candidate"
+    },
+    {
+      "id": "warm_note",
+      "baseline": "Hey.\n\nThank you for coming over yesterday. I know I said I was fine and then talked for, I don't know, most of the afternoon. The soup was very good, but mostly I was glad you were there.\n\nI have washed the container. This is apparently the practical thing I can report just now.\n\nAnyway. Thank you.",
+      "skill": "Hey. Thank you for coming over yesterday. I know I said I was fine and then talked for, I don't know, most of the afternoon.\n\nThe soup was very good, but mostly I was glad you were there. I have washed the container. This is apparently the practical thing I can report just now.\n\nAnyway. Thank you.",
+      "blind_label_map": {
+        "A": "baseline",
+        "B": "candidate"
+      },
+      "blind_review": {
+        "id": "warm_note",
+        "verdict": "tie",
+        "rationale": "Both preserve every word, including the hesitations, the container report and the awkward final thanks. Each makes the same useful comma correction and uses paragraph breaks without converting the note into generic sentiment. A gives the greeting and practical report separate beats; B keeps the soup and container together and looks slightly more like an informal message. These are defensible pacing choices, with no material change to the sender’s voice or meaning.",
+        "A_issues": [],
+        "B_issues": []
+      },
+      "resolved_preference": "tie"
+    },
+    {
+      "id": "speech",
+      "baseline": "Welcome, everyone, to our repair café.\n\nIf you’ve brought something broken and feel a little awkward about it, you’re in the right place. You don’t need to apologise for the state it’s in, or arrive knowing what went wrong. “It used to work” is a perfectly respectable opening diagnosis.\n\nOur volunteers can look at small electrical appliances, clothing and bicycles. We can’t promise to fix every item. Sometimes we may be able to help; sometimes we may have to say that a repair isn’t possible here. We’ll begin by looking together.\n\nPlease stay with your item while a volunteer works with you. You are welcome to ask questions and learn alongside them. You don’t need any experience to take part, and you don’t need to pretend you understand an explanation the first time.\n\nFor everyone’s safety, work on mains-powered appliances is handled only by qualified volunteers.\n\nThe café will run on the first Sunday of each month. Today, thank you to the volunteers giving their time, and to everyone who has brought something for us to look at.\n\nLet’s get acquainted, find out what’s broken, and see what we can do together.",
+      "skill": "Welcome to our repair café. Thank you for coming, and thank you to the volunteers who are giving their time and skills.\n\nIf you’ve brought something broken and feel a little embarrassed about it, you’re in the right place. A broken object is all the introduction you need. Your toaster will not be asked to explain itself.\n\nOur volunteers can look at small electrical appliances, clothing and bicycles. We can’t promise that every item can be fixed. The point is to look at it together and see what is possible.\n\nYou’ll stay with your item while a volunteer looks at it. That means you can ask questions and learn alongside them. There’s no need to arrive knowing the names of the parts, or knowing which question to ask first. You can start with what you’ve noticed.\n\nFor safety, work on mains-powered appliances is handled only by qualified volunteers.\n\nThe café runs on the first Sunday of each month. Whether you’ve brought clothing, a bicycle or a small appliance, there’s room here to be curious about how it works and what has gone wrong.\n\nWelcome. Let’s take a look.",
+      "blind_label_map": {
+        "A": "baseline",
+        "B": "candidate"
+      },
+      "blind_review": {
+        "id": "speech",
+        "verdict": "B",
+        "rationale": "Both fit 180–230 words, sound speakable, include every operational and safety fact, and avoid invented history or repair outcomes. B has a slight overall advantage: \"Your toaster will not be asked to explain itself\" is a light moment directly tied to visitors’ embarrassment, and \"You can start with what you’ve noticed\" gives a newcomer a useful first step. A’s assurance that listeners need not understand an explanation immediately is also particularly welcoming. However, A spends more space repeating the limits of repair, and its illustrative quoted diagnosis creates an avoidable ambiguity under the instruction not to invent quotes. B meets that constraint cleanly.",
+        "A_issues": [
+          "The passage beginning \"We can’t promise\" repeats essentially the same limitation through \"sometimes\" clauses, slowing the welcome.",
+          "\"It used to work\" is a newly supplied illustrative quotation. It is not fabricated testimony, but the request’s blanket prohibition on invented quotes makes this choice avoidable."
+        ],
+        "B_issues": []
+      },
+      "resolved_preference": "candidate"
+    },
+    {
+      "id": "poem_critique",
+      "baseline": "1. “As you left it” gives the opening a personal pull, while leaving “you” unidentified keeps a season or another absence possible. Avoid adding a clue that settles the addressee.\n\n2. Consider whether you need both “small” and “a little.” The double softening suits the restraint, but may make the pressure feel too gentle. Read aloud before cutting either.\n\n3. The break after “moved” briefly gives the garden agency before the next lines suggest gradual encroachment. Keep that delayed clarification; the path becoming overgrown carries the waiting without naming its object.",
+      "skill": "1. Keep the opening address. “As you left it” feels intimate without fixing who—or what—“you” might be. Naming the absence would close that possibility.\n2. Test whether “small” gives “complaint” the restraint you want or merely softens a familiar image. The break after “keeps” already gives the hinge a moment of suspension.\n3. Keep the movement into the path as the ending. The garden changes while the gate is preserved; that tension carries the waiting without requiring a final explanation.",
+      "blind_label_map": {
+        "A": "candidate",
+        "B": "baseline"
+      },
+      "blind_review": {
+        "id": "poem_critique",
+        "verdict": "tie",
+        "rationale": "Both supply exactly three concise notes, do not rewrite the poem, and protect the unresolved addressee. Their useful observations differ. A notices the hinge’s suspended syntax and the larger tension between preserving the gate and the garden’s movement; its question about \"small\" also identifies a potentially familiar image. B notices the repeated diminution in \"small\" and \"a little\", and connects the break after \"moved\" to the delayed description of encroachment. B offers a more explicit editing check, while A gives the stronger account of the poem’s structural tension. Neither establishes a material overall advantage.",
+        "A_issues": [],
+        "B_issues": []
+      },
+      "resolved_preference": "tie"
+    },
+    {
+      "id": "copyedit",
+      "baseline": "We received the blue proofs.\nThe label reads “lead”—not “led”.\nPlease separate these from the old set.\nThe colour is weird. Keep it.",
+      "skill": "We received the blue proofs.\nThe label reads “lead”—not “led”.\nPlease separate these from the old set.\nThe colour is weird. Keep it.",
+      "blind_label_map": {
+        "A": "candidate",
+        "B": "baseline"
+      },
+      "blind_review": {
+        "id": "copyedit",
+        "verdict": "tie",
+        "rationale": "The outputs are identical and fully fulfil the narrow request. Both correct \"recieved\", \"seperate\" and \"wierd\" while preserving the four lines, punctuation, British spelling \"colour\", and the intentional distinction between \"lead\" and \"led\". Neither adds commentary or a code fence.",
+        "A_issues": [],
+        "B_issues": []
+      },
+      "resolved_preference": "tie"
+    },
+    {
+      "id": "criticism",
+      "baseline": "At first, Ordinary Measures makes repetition feel like a demand on patience. The twelve overhead photographs of kitchen tables, presented in evenly spaced frames, establish a rhythm I found slow to reward attention.\n\nThe exhibition becomes interesting when measurement stops looking neutral. In three photographs, rulers sit beside ordinary objects. Beside a half-peeled orange or a folded napkin, the ruler offers precision without an obvious question to answer. What would knowing the length tell us? Its authority begins to seem disproportionate to its usefulness.\n\nThe final photograph, an empty table bearing a pale rectangular mark where something once sat, sharpens this unease. Here is a trace with no object left to measure. The absence feels more particular than the rulers’ promise of exactness.\n\nNo people appear in these photographs, but the tables are not beyond human use. The closing image makes that tension compelling. It does not entirely redeem the exhibition’s slow opening; it does make the slowness harder to dismiss.",
+      "skill": "Ordinary Measures takes a while to become interesting. Across twelve photographs, the repeated overhead view of kitchen tables and the even spacing of the frames initially made the sequence feel slow. With no people visible, the tables have to carry the exhibition’s interest, and repetition alone did not quite sustain mine.\n\nThe three photographs that include rulers give that repetition a sharper edge. Beside a half-peeled orange, a ruler makes size seem like something we ought to know. Beside a folded napkin, it lends an ordinary object the status of evidence. That is where measuring stopped looking neutral to me: the instrument seems to decide what deserves attention as much as it records a dimension.\n\nThe final photograph, an empty table bearing a pale rectangular mark, is more compelling still. There is something measurable here, but only the outline of what is missing. The exhibition’s restraint can be dull; at the end, it leaves a question that a ruler could not settle.",
+      "blind_label_map": {
+        "A": "baseline",
+        "B": "candidate"
+      },
+      "blind_review": {
+        "id": "criticism",
+        "verdict": "B",
+        "rationale": "Both remain within 140–190 words, keep a critical point of view, and base their interpretations on the supplied photographs rather than invented intentions or biography. B develops the central insight more precisely: the orange makes size feel like required knowledge, while the napkin acquires the status of evidence. From these examples it argues that measurement directs attention as well as recording dimensions. Its treatment of the last mark acknowledges that a trace can still be measured without resolving the absence. A’s argument about disproportionate authority is good, but \"absence feels more particular\" is less fully explained, and the closing claim that the opening’s slowness becomes harder to dismiss is not developed. B sustains the reservation about repetition more convincingly.",
+        "A_issues": [
+          "The assertion that absence is \"more particular\" than exactness remains abstract rather than clearly established by the described mark.",
+          "The last sentence partially rehabilitates the slow opening without explaining how the closing image changes the value of that repetition."
+        ],
+        "B_issues": []
+      },
+      "resolved_preference": "candidate"
+    }
+  ]
+}

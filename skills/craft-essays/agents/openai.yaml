@@ -1,0 +1,4 @@
+interface:
+  display_name: "Craft Essays"
+  short_description: "Develop better writing in your own voice"
+  default_prompt: "Use $craft-essays to improve this writing while preserving my voice and intent."
