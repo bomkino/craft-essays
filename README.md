@@ -21,12 +21,12 @@ This uses the open-source [Skills CLI](https://github.com/vercel-labs/skills). T
 For a fixed release, use:
 
 ```sh
-npx skills add https://github.com/bomkino/craft-essays/tree/v0.1.0/skills/craft-essays --agent codex --global
+npx skills add https://github.com/bomkino/craft-essays/tree/v0.1.1/skills/craft-essays --agent codex --global
 ```
 
 You can also ask Codex:
 
-> Use skill-installer to install the skill at https://github.com/bomkino/craft-essays/tree/v0.1.0/skills/craft-essays.
+> Use skill-installer to install the skill at https://github.com/bomkino/craft-essays/tree/v0.1.1/skills/craft-essays.
 
 The skill becomes available on the next turn. If your client keeps a cached skill list, start a fresh task.
 
@@ -84,7 +84,7 @@ It keeps facts, commitments and meaningful uncertainty intact. It can invent whe
 - [Expression](skills/craft-essays/references/expression.md): voice, cadence, texture, feeling and play.
 - [Origins](skills/craft-essays/references/origins.md): attribution and the limits of the adaptation.
 - [Research foundation](docs/foundation.md): the deeper study behind the instructions; maintainer reading, outside the installed skill.
-- [Evaluation](evals/README.md): writing comparisons, constraints and limitations.
+- [Evaluation](evals/v0.1.1/README.md): longer writing comparisons, constraints and limitations, with the initial study linked.
 
 The package contains instructions only. It adds no scripts or service dependencies. Only the relevant reference needs to load for a writing task.
 

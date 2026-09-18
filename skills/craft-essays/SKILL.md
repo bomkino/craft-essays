@@ -2,7 +2,7 @@
 name: craft-essays
 description: Draft, revise, or critique writing with attention to substance, structure, voice, and rhythm. Use for writing work, from practical copy to expressive prose.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Craft Essays

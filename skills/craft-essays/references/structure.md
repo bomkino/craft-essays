@@ -16,6 +16,22 @@ Use a limited set of useful elements. A recurring example lets readers learn the
 
 For each passage, identify what it contributes. The contribution may be understanding, atmosphere, uncertainty, intimacy, rhythm or a needed pause. It need not be a new fact or plot event. Cut or reshape passages whose apparent purpose is already fulfilled elsewhere, unless the recurrence itself matters.
 
+### Worked revision: let the material change the claim
+
+Invented material: a library moves its online renewal cutoff from 6 p.m. to midnight. Desk renewals still end at 6 p.m. The new paper notice says only “Renew until midnight.” The task is to develop a newsletter argument about the change.
+
+**Draft:**
+
+> Moving renewal to midnight makes the library more accessible. Everyone gets more time. That flexibility will help more people use the service.
+
+**Revision:**
+
+> Online borrowers gain six hours to renew. At the desk, the cutoff stays at six. “Renew until midnight” hides that distinction. Put both times on the notice. The library has extended one route into the evening; the wording should make clear whose options have changed.
+
+The draft repeats approval without examining its basis. The revision gives the later cutoff three successive jobs: establish the benefit, expose its limit, then motivate a decision about the notice. Each return changes what the same fact means. The argument becomes more useful by qualifying its opening claim. It adds reasoning, without inventing attendance figures or a borrower’s experience.
+
+For a notice that only needs to communicate hours, give the two cutoffs directly. The developed argument earns its space here because the newsletter is assessing the change.
+
 ## Allocate the work of understanding
 
 When details already let the reader make a satisfying connection, try removing the obvious explanation that follows. When the connection would be unclear to this audience, state it. When a verdict has no grounds, develop those grounds or identify it honestly as an impression.

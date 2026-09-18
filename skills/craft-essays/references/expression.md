@@ -16,6 +16,22 @@ Repetition can establish rhythm or let an image return with new meaning. A conne
 
 For speech, make references and attributions clear to listeners who cannot look back. Leave room for a realization, laugh or pause. If a real read-through is available, use what it reveals. Silent inspection is useful editorial work; it is not audience testing.
 
+### Worked revision: let the sentence carry the hesitation
+
+This invented personal-essay fragment calls for an understated, dry voice. Keep its events.
+
+**Draft:**
+
+> The dentist asked if I was nervous. I said I wasn’t. I put my coat on the chair. I folded the sleeves. I unfolded them. I folded them again. I was more nervous than I wanted to admit.
+
+**Revision:**
+
+> The dentist asked if I was nervous. I said I wasn’t, put my coat on the chair and folded the sleeves. Then I unfolded them and folded them again.
+
+The middle sentence gathers the denial and routine movements into one composed breath. The last sentence makes that routine falter. Repeating “folded” preserves the pointless return to the same task; replacing it with elegant synonyms would weaken the recurrence. The reader has enough to recognise the feeling before being told its name, so the final explanation can go. No extra gesture or private history is needed.
+
+“Folded. Unfolded. Folded again.” would give the same actions a more agitated, conspicuous beat. That could serve another voice; it spends the restraint requested here. Conversely, in a note asking someone to accompany the writer, “I’m nervous” may be the essential statement. Choose how much the reader should infer from the purpose of this passage.
+
 ## Change texture when something is missing
 
 A stream of explanation may need an example. A list may need interpretation. A close description may need reflection or a little distance. A change to direct address may make the reader's place clear. Choose a different mode to do that work, then connect it to the whole.
