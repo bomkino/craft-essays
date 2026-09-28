@@ -2,7 +2,7 @@
 
 Ten fresh briefs, written on 28 September 2026 by an agent that never saw the skill, cover the forms studios write most: a funding deck, a homepage, a spoken client presentation, a case study, an announcement, an About-page rewrite, a short-film treatment, a practical email, a talk opening and a personal-essay revision. Each brief supplies its facts and forbids inventing more; each carries objective checks the writers never saw.
 
-The [briefs and checks](cases.json) and the [complete record](comparison.json) are public: snapshot hashes, every output, the exact texts each judge saw, the seeds, the sealed label mappings and every verdict.
+The [briefs and checks](cases.json) and the [complete record](comparison.json) are public: snapshot hashes, every output, the exact texts each judge saw, the seeds, the sealed label mappings and every verdict. Earlier studies: [v0.1.0](../README.md) on eight short briefs and [v0.1.1](../v0.1.1/README.md) on longer writing.
 
 ## Method
 
