@@ -2,7 +2,7 @@
 name: craft-essays
 description: Writing craft for any piece that has to work on a reader. Use to draft, revise, critique or tighten deck and slide copy, websites and product copy, talks and scripts, stories and treatments, essays, emails and posts; when writing reads generic, abstract, flat or AI-written; or when another skill hands over a draft for a craft pass.
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Craft Essays

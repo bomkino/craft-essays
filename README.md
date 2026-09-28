@@ -33,12 +33,12 @@ This uses the open-source [Skills CLI](https://github.com/vercel-labs/skills). T
 For a fixed release, use:
 
 ```sh
-npx skills add https://github.com/bomkino/craft-essays/tree/v0.2.0/skills/craft-essays --agent codex --global
+npx skills add https://github.com/bomkino/craft-essays/tree/v0.2.1/skills/craft-essays --agent codex --global
 ```
 
 You can also ask Codex:
 
-> Use skill-installer to install the skill at https://github.com/bomkino/craft-essays/tree/v0.2.0/skills/craft-essays.
+> Use skill-installer to install the skill at https://github.com/bomkino/craft-essays/tree/v0.2.1/skills/craft-essays.
 
 The skill becomes available on the next turn. If your client keeps a cached skill list, start a fresh task.
 
