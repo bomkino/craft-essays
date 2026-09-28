@@ -10,10 +10,11 @@ FILES = [
     "LICENSE",
     "SKILL.md",
     "agents/openai.yaml",
-    "references/expression.md",
+    "references/decks-and-talks.md",
+    "references/narrative.md",
     "references/origins.md",
-    "references/structure.md",
-    "references/substance.md",
+    "references/sentences.md",
+    "references/web-and-product.md",
 ]
 
 def main():
