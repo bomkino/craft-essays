@@ -2,6 +2,11 @@
 
 All notable changes are recorded here. Each release's evidence lives in [`evals/`](evals/).
 
+## 0.2.1 — 2026-09-28
+
+- Story-deck notes now match the studio's specialist deck practice. The want-and-obstacle logline is one option, suited to pursuit stories; other stories find their own sentence. A recurring image in the deck is a reading device, promised on screen only when the creator has chosen it. A creator's statement can earn trust through craft choices alone when there is no personal story to offer.
+- Wording change only; not re-evaluated.
+
 ## 0.2.0 — 2026-09-28
 
 Rebuilt around what the piece is for. Craft Essays now serves any writing that has to work on a reader, including decks, websites, talks and client presentations, and other skills can call it for a craft pass.

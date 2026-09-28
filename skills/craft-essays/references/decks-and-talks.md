@@ -22,12 +22,12 @@ Decks, pitch documents, presentations of work, conference talks and speeches. A 
 
 Film, television and advertising decks sell a story before it exists. Everything in [narrative](narrative.md) applies, plus:
 
-- **The logline is the thumbnail.** One sentence with a person, what they want, what stands in the way and what it costs. Adjectives about the story (gripping, heartfelt, unforgettable) are labels; the stakes are the particulars.
+- **The logline is the thumbnail.** One sentence that makes this story's distinctive tension or experience graspable. For a pursuit story that is often a person, what they want, what stands in the way and what it costs; a relationship, a ritual, an inquiry or a formal experiment finds its own sentence. Adjectives about the story (gripping, heartfelt, unforgettable) are labels; the particulars carry it.
 - **Character pages show a choice.** A list of traits is received text. Give the one thing this character does that nobody else in the story would do.
 - **Tone pages happen on the body.** Deliver what an audience will feel through particulars of sound, texture, pace and image, and let the reader name the feeling.
 - **The world moves.** Show the setting as someone travels through it: the route to work, the market at closing time, the last ferry.
-- **Horses across the deck.** A recurring image or object ties the pages into one story, the way it will return in the poster, the first scene and the last.
-- **The statement is head and heart.** A director's or creator's statement earns trust with specific craft choices (head) and a candid reason this story matters to them (heart), in their own voice.
+- **Horses across the deck.** A recurring image or object ties the pages into one story. In the deck it is a reading device; promise it on screen only when the creator has chosen it for the film.
+- **The statement is head and heart.** A director's or creator's statement earns trust with specific craft choices (head) and, where they have offered one, a candid reason this story matters to them (heart), in their own voice. A clear interpretation and accountable choices can carry it on their own.
 
 ## Presenting work
 
